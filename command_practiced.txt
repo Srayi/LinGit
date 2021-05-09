@@ -3,8 +3,10 @@ git config --global user.* - to configure user
 git add <filename> or git add .-> to add file
 git commit -> to commit the change with a message
 git push origin/main to push the change to origin
-git log -n
-git log --since=yyyy-mm--dd
-git log --until=yyyy-mm-dd
-git log --author="name"
-git log --grep="msg"
+git log -n  -> n commit messaged
+git log --since=yyyy-mm--dd -> commit done from date to current
+git log --until=yyyy-mm-dd - >commits done until date from start
+git log --author="name" ->commits done by
+git log --grep="msg"  ->commits has text in message
+git diff -> working dir vs repo
+git diff --staged -> staged vs repo
