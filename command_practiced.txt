@@ -3,3 +3,8 @@ git config --global user.* - to configure user
 git add <filename> or git add .-> to add file
 git commit -> to commit the change with a message
 git push origin/main to push the change to origin
+git log -n
+git log --since=yyyy-mm--dd
+git log --until=yyyy-mm-dd
+git log --author="name"
+git log --grep="msg"
