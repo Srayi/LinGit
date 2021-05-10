@@ -10,3 +10,7 @@ git log --author="name" ->commits done by
 git log --grep="msg"  ->commits has text in message
 git diff -> working dir vs repo
 git diff --staged -> staged vs repo
+
+#Creatign
+git branch
+git branch <name>
